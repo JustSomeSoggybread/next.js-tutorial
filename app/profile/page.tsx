@@ -1,6 +1,6 @@
 import { auth, signIn, signOut } from "@/auth";
 
-export default async function SignIn() {
+export default async function GoogleForm() {
     const session = await auth();
     console.log(session);
     const user = session?.user;
